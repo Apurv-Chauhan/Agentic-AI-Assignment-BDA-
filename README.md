@@ -31,7 +31,10 @@ flowchart TD
     C -->|Policy Question| E\[Retrieve Relevant Chunk from student\_handbook.md]
     C -->|Prior Preferences| F\[Recall Persistent Memory from memory\_store.json]
     C -->|Uncertain / Missing Info| G\[Create Support Ticket: create\_support\_ticket]
-    D \& E \& F \& G --> H\[Synthesize Final Response via Groq LLM]
+    D --> H
+    E --> H
+    F --> H
+    G --> H\[Synthesize Final Response via Groq LLM]
     H --> I\[Tracer: Log Latency, Tokens, Tools, Evidence]
     I --> J\[Display Answer \& Tracing in Terminal]
 ```
