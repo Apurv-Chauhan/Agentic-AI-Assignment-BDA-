@@ -1,0 +1,38 @@
+{
+  "STU101": {
+    "student_id": "STU101",
+    "useful_facts": {
+      "specialization_interest": {
+        "value": "Student is in AI & Data Science and has a strong interest in Natural Language Processing (NLP) and Deep Learning.",
+        "updated_at": "2026-10-30T16:31:01.410240"
+      }
+    },
+    "audit_log": [
+      {
+        "action": "STORED",
+        "key": "specialization_interest",
+        "timestamp": "2026-10-28T11:57:30.240237"
+      },
+      {
+        "action": "STORED",
+        "key": "specialization_interest",
+        "timestamp": "2026-10-28T12:10:16.873877"
+      },
+      {
+        "action": "STORED",
+        "key": "specialization_interest",
+        "timestamp": "2026-10-29T22:28:23.920608"
+      },
+      {
+        "action": "STORED",
+        "key": "specialization_interest",
+        "timestamp": "2026-10-30T00:19:55.815908"
+      },
+      {
+        "action": "STORED",
+        "key": "specialization_interest",
+        "timestamp": "2026-10-30T16:31:01.410240"
+      }
+    ]
+  }
+}

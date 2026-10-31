@@ -1,0 +1,130 @@
+{
+  "STU101": {
+    "student_id": "STU101",
+    "full_name": "Akshay Kumar",
+    "programme": "PGDM (Artificial Intelligence & Data Science)",
+    "batch": "2025-2027",
+    "current_term": "Term 2",
+    "cgpa": 3.75,
+    "attendance_percentage": 89.5,
+    "faculty_advisor": "Dr. Sunita Rao",
+    "fee_record": {
+      "total_annual_fee": 1200000,
+      "term_fee": 300000,
+      "paid_amount": 250000,
+      "pending_balance": 40000,
+      "due_date": "2026-11-15",
+      "payment_status": "PARTIALLY_PAID",
+      "late_fee_accrued": 0,
+      "installment_history": [
+        {
+          "term": "Term 1",
+          "amount": 300000,
+          "status": "PAID",
+          "date": "2025-07-12"
+        },
+        {
+          "term": "Term 2",
+          "amount": 250000,
+          "status": "PARTIAL",
+          "date": "2025-11-10"
+        }
+      ],
+      "adjustment_history": [
+        {
+          "type": "APPROVED_FEE_WAIVER",
+          "request_id": "APR-E8416A1C",
+          "amount": 10000,
+          "balance_before": 50000,
+          "balance_after": 40000,
+          "reason": "Demonstration of human approval workflow",
+          "approved_by": "STU101",
+          "approved_at": "2026-10-29T18:48:33.522305+00:00"
+        }
+      ]
+    },
+    "scholarship": {
+      "has_scholarship": true,
+      "scheme_name": "Merit Excellence Fellowship (25% Tuition Waiver)",
+      "waiver_percentage": 25,
+      "status": "ACTIVE",
+      "min_cgpa_required": 3.5,
+      "min_attendance_required": 80.0,
+      "renewal_review_due": "End of Term 2",
+      "eligibility_remarks": "Eligible. Current CGPA (3.75) and Attendance (89.5%) satisfy all renewal criteria."
+    }
+  },
+  "STU102": {
+    "student_id": "STU102",
+    "full_name": "Alia Bhatt",
+    "programme": "PGDM (Big Data Analytics)",
+    "batch": "2025-2027",
+    "current_term": "Term 2",
+    "cgpa": 3.42,
+    "attendance_percentage": 84.0,
+    "faculty_advisor": "Prof. Rajesh Menon",
+    "fee_record": {
+      "total_annual_fee": 1200000,
+      "term_fee": 300000,
+      "paid_amount": 300000,
+      "pending_balance": 0,
+      "due_date": "2026-11-15",
+      "payment_status": "FULLY_PAID",
+      "late_fee_accrued": 0,
+      "installment_history": [
+        {
+          "term": "Term 1",
+          "amount": 300000,
+          "status": "PAID",
+          "date": "2025-07-14"
+        },
+        {
+          "term": "Term 2",
+          "amount": 300000,
+          "status": "PAID",
+          "date": "2025-11-05"
+        }
+      ]
+    },
+    "scholarship": {
+      "has_scholarship": true,
+      "scheme_name": "Dean's Merit Scholarship (50% Tuition Waiver)",
+      "waiver_percentage": 50,
+      "status": "PROVISIONAL_PROBATION",
+      "min_cgpa_required": 3.5,
+      "min_attendance_required": 80.0,
+      "renewal_review_due": "End of Term 2",
+      "eligibility_remarks": "On Provisional Probation. CGPA (3.42) is currently below the required 3.50 threshold."
+    }
+  },
+  "STU103": {
+    "student_id": "STU103",
+    "full_name": "Sid Kapoor",
+    "programme": "PGDM (Financial Analytics & FinTech)",
+    "batch": "2025-2027",
+    "current_term": "Term 1",
+    "cgpa": 3.85,
+    "attendance_percentage": 92.0,
+    "faculty_advisor": "Dr. Amit Roy",
+    "fee_record": {
+      "total_annual_fee": 1200000,
+      "term_fee": 300000,
+      "paid_amount": 0,
+      "pending_balance": 300000,
+      "due_date": "2026-11-15",
+      "payment_status": "UNPAID",
+      "late_fee_accrued": 0,
+      "installment_history": []
+    },
+    "scholarship": {
+      "has_scholarship": false,
+      "scheme_name": null,
+      "waiver_percentage": 0,
+      "status": "NONE",
+      "min_cgpa_required": null,
+      "min_attendance_required": null,
+      "renewal_review_due": null,
+      "eligibility_remarks": "No scholarship currently applied. Eligible to apply for Term 2 Merit Awards if CGPA >= 3.60."
+    }
+  }
+}

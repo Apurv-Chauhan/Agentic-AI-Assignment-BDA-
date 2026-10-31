@@ -1,0 +1,35 @@
+[
+  {
+    "ticket_id": "TICK-2026-23805C",
+    "student_id": "STU101",
+    "category": "Fee & Finance",
+    "priority": "Medium",
+    "issue_description": "Request clarification on whether the institute provides any monthly financial allowance or subsidy for off-campus private hostel rent.",
+    "created_at": "2026-10-29T23:32:33.805128",
+    "status": "OPEN",
+    "assigned_department": "Student Affairs & Helpdesk",
+    "estimated_sla": "24 to 48 business hours"
+  },
+  {
+    "ticket_id": "TICK-2026-7E6DBE",
+    "student_id": "STU101",
+    "category": "IT & Portal Failure",
+    "priority": "High",
+    "issue_description": "Student portal is failing to load/access; unable to view fee status and other information.",
+    "created_at": "2026-10-30T00:01:38.641528",
+    "status": "OPEN",
+    "assigned_department": "Student Affairs & Helpdesk",
+    "estimated_sla": "24 to 48 business hours"
+  },
+  {
+    "ticket_id": "TICK-2026-0FA49C",
+    "student_id": "STU101",
+    "category": "Fee & Finance",
+    "priority": "High",
+    "issue_description": "Fee payment not reflecting in the system for student STU101.",
+    "created_at": "2026-10-30T16:30:19.129568",
+    "status": "OPEN",
+    "assigned_department": "Student Affairs & Helpdesk",
+    "estimated_sla": "24 to 48 business hours"
+  }
+]
